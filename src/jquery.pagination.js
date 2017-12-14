@@ -122,7 +122,7 @@
 			if(this.opts.next_text && (current_page < np-1 || this.opts.next_show_always)){
 				fragment.append(this.createLink(current_page+1, current_page, {text:this.opts.next_text, classes:"next",rel:"next"}));
 			}
-			$('a', fragment).click(eventHandler);
+			$('a', fragment).on('click', eventHandler);
 			return fragment;
 		}
 	});
