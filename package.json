@@ -1,6 +1,6 @@
 {
   "name": "jquery_pagination",
-  "version": "2.2.0",
+  "version": "2.2.3",
   "description": "This jQuery plugin displays pagination links inside the selected elements.",
   "main": "index.js",
   "directories": {
